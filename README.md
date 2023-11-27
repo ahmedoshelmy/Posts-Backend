@@ -39,11 +39,10 @@ This includes REST APIs for Posts application that includes several features:
 
 ## Env file Example
 
-DATABASE_URL="postgresql://user:password@localhost:5432/db_name"
-SALT= post
-JWT_SECRET=post
-JWT_EXPIRES_IN=90d
-SALT="$2b$10$70DKBf.U7AIyLJJevX.yDO"
+- DATABASE_URL="postgresql://user:password@localhost:5432/db_name"
+- JWT_SECRET=post
+- JWT_EXPIRES_IN=90d
+- SALT="$2b$10$70DKBf.U7AIyLJJevX.yDO"
 
 ## Notes
 
