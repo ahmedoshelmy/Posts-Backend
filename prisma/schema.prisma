@@ -12,6 +12,7 @@ model User {
   name     String
   email    String @unique
   password String
+  Posts    Post[]
 
   @@id([id])
 }
@@ -20,6 +21,9 @@ model Post {
   id      String @default(uuid())
   title   String
   content String
+
+  userId String
+  author User   @relation(fields: [userId], references: [id])
 
   @@id([id])
 }
