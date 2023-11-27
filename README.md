@@ -20,6 +20,7 @@ This includes REST APIs for Posts application that includes several features:
 - Swagger for Documentation
 - JWT for authentication
 - Zod for data validation
+- Bcrypt for hashing
 
 ## Steps to run the application
 
@@ -28,4 +29,6 @@ This includes REST APIs for Posts application that includes several features:
 - Add your .env file that should include the following
   - DATABASE_URL: PostgreSQL Database URL that includes the username, password and the name of the database
   - JWT_SECRET: That includes the secret key of the authentication
+  - JWT_EXPIRES_IN: Duration that the JWT expires in
   - PORT: The port you want to run the backend application on
+  - SALT: The salt used for hashing
