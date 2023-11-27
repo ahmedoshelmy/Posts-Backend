@@ -36,3 +36,15 @@ This includes REST APIs for Posts application that includes several features:
 - Run "npm run primsa:migrate" to create the tables
 - Run "npm start" to start the server
 - You can find the docs at "http://localhost:3000/docs"
+
+## Env file Example
+
+DATABASE_URL="postgresql://user:password@localhost:5432/db_name"
+SALT= post
+JWT_SECRET=post
+JWT_EXPIRES_IN=90d
+SALT="$2b$10$70DKBf.U7AIyLJJevX.yDO"
+
+## Notes
+
+- Make sure to add the Authorization header (Bearer Token)

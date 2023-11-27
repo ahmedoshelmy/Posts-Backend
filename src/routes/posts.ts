@@ -58,7 +58,7 @@ router
  *              $ref: '#/components/schemas/Post'
  *     responses:
  *      201:
- *        description: User created successfully
+ *        description: Post Edited successfully
  *        content:
  *          application/json:
  *            schema:
