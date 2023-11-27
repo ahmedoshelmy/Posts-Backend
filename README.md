@@ -32,3 +32,7 @@ This includes REST APIs for Posts application that includes several features:
   - JWT_EXPIRES_IN: Duration that the JWT expires in
   - PORT: The port you want to run the backend application on
   - SALT: The salt used for hashing
+- Run "npm run prisma:generate" to generate the prisma client
+- Run "npm run primsa:migrate" to create the tables
+- Run "npm start" to start the server
+- You can find the docs at "http://localhost:3000/docs"
